@@ -1,0 +1,14 @@
+#sec-01 {
+  padding: 0;
+}
+
+.sec-01__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 3.9rem;
+}
+
+.logo-container {
+  width: pxToRem(37px);
+}
