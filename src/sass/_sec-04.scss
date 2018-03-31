@@ -1,0 +1,34 @@
+#sec-04 {
+  padding-top: 5.9rem;
+  padding-bottom: 6rem;
+}
+
+.sec-04__content-container {
+  text-align: center;
+  padding: 0 1.2rem;
+}
+
+.sec-04__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.sec-04__subtitle {
+  font-family: PlayD;
+  font-size: pxToRem(18px);
+  color: #66655d;
+  line-height: 1.3;
+  margin-bottom: 1.7rem;
+}
+
+#sec-04 .arrow-container {
+  display: flex;
+  justify-content: center;
+}
+
+#sec-04 .svg-img {
+  width: 1.5rem;
+}

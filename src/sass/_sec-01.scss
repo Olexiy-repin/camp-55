@@ -1,14 +1,149 @@
 #sec-01 {
-  padding: 0;
+  padding-top: .7rem;
+  padding-bottom: 13rem;
+  background-color: #f3f0e9;
+  .container--width:first-of-type {
+    background-image: url("img/sec-01/bg-img.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2.4rem;
+    padding-bottom: 4.1rem;
+  }
+  .row:first-child {
+    margin-bottom: 2.1rem;
+  }
 }
 
 .sec-01__header {
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem;
-  margin-bottom: 3.9rem;
+  padding-left: 1rem;
+  margin-bottom: .4rem;
 }
 
 .logo-container {
-  width: pxToRem(37px);
+  width: 1.5rem;
+}
+
+.sec-01__menu {
+  display: none;
+}
+
+.sec-01__btn-container {
+  display: none;
+}
+
+.sec-01__title {
+  font-family: Play;
+  font-size: pxToRem(58px);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3.4px;
+  text-align: center;
+  margin-bottom: .6rem;
+}
+
+.sec-01__speaker {
+  font-family: Play;
+  font-size: pxToRem(18px);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.sec-01__right-top-content {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 14.8rem;
+  justify-content: space-between;
+  padding-right: 2.8rem;
+}
+
+.sec-01__right-top-text {
+  font-family: PlayD;
+  font-size: pxToRem(14px);
+  color: #f9e561;
+  text-transform: uppercase;
+  line-height: 1.7;
+  padding-top: 2.1rem;
+}
+
+.sec-01__right-top-age {
+  font-family: PlayD;
+  font-size: pxToRem(81.9px);
+  color: #f9e561;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 4px;
+}
+
+.sec-01__right-top-age-span {
+  position: absolute;
+  right: -3.3rem;
+  top: 1rem;
+}
+
+.sec-01__subtitle {
+  font-family: Play;
+  font-size: pxToRem(36px);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: .4rem;
+}
+
+.sec-01__under-subtitle {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  #sec-01 {
+    padding-top: 1.5rem;
+    background-color: #f3f0e9;
+  }
+
+  .sec-01__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.9rem;
+  }
+
+  .logo-container {
+    width: 3.1125rem;
+  }
+
+  .sec-01__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: OpenSansR;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .sec-01__menu-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      font-family: OpenSansB;
+      background-color: #f9e561;
+      border-radius: 7px;
+    }
+  }
+
+  .sec-01__header-btn {
+    display: inline-block;
+    font-family: OpenSansB;
+    font-size: pxToRem(14px);
+    outline: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+  }
 }
