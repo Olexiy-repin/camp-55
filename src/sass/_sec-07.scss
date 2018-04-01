@@ -1,0 +1,60 @@
+#sec-07{
+  padding-bottom: 2rem;
+  background-color: #f3f0e9;
+  overflow: hidden;
+}
+
+.sec-07__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  margin-bottom: 6.2rem;
+}
+
+.sec-07__title .break {
+ display: block;
+}
+
+.sec-07__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sec-07__item {
+  width: 44.4%;
+  margin-bottom: 1.8rem;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 2.2rem;
+    left: 0;
+    display: block;
+    content: url("img/sec-07/line.png");
+  }
+  &:last-of-type {
+    width: 90%;
+    &::before {
+      content: url("img/sec-07/dot.png");
+    }
+  }
+}
+
+.sec-07__item-time {
+  display: block;
+  font-family: OpenSansB;
+  font-size: pxToRem(18px);
+  margin-bottom: 2.9rem;
+}
+
+.sec-07__item-content-title {
+  font-family: OpenSansB;
+  font-size: pxToRem(16px);
+}
+
+.sec-07__item-content-text {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #66655d;
+  line-height: 1.5;
+}

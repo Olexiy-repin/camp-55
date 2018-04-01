@@ -1,0 +1,22 @@
+#sec-12 {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #f3f0e9;
+  .break {
+    display: block;
+  }
+}
+
+.sec-12__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-left: .7rem;
+  margin-bottom: 2.1rem;
+}
+
+.sec-12__img-container {
+  display: flex;
+  justify-content: center;
+}

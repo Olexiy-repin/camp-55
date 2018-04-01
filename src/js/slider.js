@@ -1,5 +1,5 @@
 (() => {
-  $(".sec-06__slider").owlCarousel({
+  $(".response-slider").owlCarousel({
    items : 1,
    itemsCustom : true,
 

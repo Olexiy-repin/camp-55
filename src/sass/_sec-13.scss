@@ -1,0 +1,31 @@
+#sec-13 {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background-color: #f3f0e9;
+  .break {
+    display: block;
+  }
+  .row [class*=col-]:first-of-type {
+    margin-bottom: 2.2rem;
+  }
+}
+
+.sec-13__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.sec-13__text {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #66655d;
+  line-height: 1.5;
+}
+
+.sec-13__img-container {
+  display: flex;
+  justify-content: center;
+}
