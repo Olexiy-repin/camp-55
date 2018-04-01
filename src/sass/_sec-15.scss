@@ -1,0 +1,117 @@
+#sec-15 {
+  position: relative;
+  padding-top: 4.9rem;
+  padding-bottom: 15.9rem;
+  background-color: #f3f0e9;
+  .row:first-of-type [class*=col-]:first-of-type {
+    margin-bottom: 2rem;
+  }
+  .row:first-of-type {
+    margin-bottom: 4.2rem;
+  }
+  background-image: url("img/sec-15/bg-sm.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.sec-15__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+}
+.sec-15__subtitle {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #66655d;
+  line-height: 1.5;
+  padding-left: .3rem;
+  padding-right: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.sec-15__text {
+  font-family: OpenSansB;
+  font-size: pxToRem(18px);
+  span {
+    display: inline-block;
+    background-color: #f9e561;
+    margin-bottom: .4rem;
+    padding: 0 .4rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.sec-15__img-description {
+  font-family: PlayD;
+  font-size: pxToRem(18px);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.sec-15__img-container {
+  margin-bottom: 1.8rem;
+}
+
+.sec-15__under-img-text {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #66655d;
+  text-align: center;
+}
+
+#sec-15 .sec-08__form {
+  padding: 4.7rem .5rem 4.2rem .5rem;
+}
+
+#sec-15 .sec-08__form-title {
+  margin-bottom: .8rem;
+}
+
+#sec-15 .sec-08__form-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  padding: 0 .9rem;
+}
+
+.sec-15__important-block {
+  position: relative;
+  background-color: #f9e561;
+  padding: 7.1rem 1rem 5.8rem 1rem;
+  z-index: 0;
+  &::before {
+    display: block;
+    content: "!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fbed91;
+    font-family: PlayD;
+    font-size: pxToRem(522px);
+    z-index: -1;
+  }
+}
+
+.sec-15__important-title {
+  font-family: PlayD;
+  font-size: pxToRem(24px);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: .7rem;
+}
+
+.sec-15__important-text {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  text-align: center;
+  color: #66655d;
+  line-height: 1.5;
+}

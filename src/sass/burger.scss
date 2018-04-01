@@ -1,13 +1,13 @@
 .menu-logo {
   width: 25px;
   height: 32px;
-  fill: #fff;
+  fill: #000;
 }
 
 .close-logo {
   width: 18px;
   height: 25px;
-  fill: #fff;
+  fill: #000;
 }
 
 .hamburger{
@@ -42,13 +42,14 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #41a7e7;
+  background-color: #f3f0e9;
   z-index: 2;
-  height: 28.2rem;
+  height: 30.3rem;
 }
 
 .menu__list {
   list-style: none;
+  margin-bottom: 7rem;
 }
 
 .menu__item {
@@ -57,14 +58,20 @@
 }
 
 .menu__link {
-  font-family: GothaB;
+  font-family: OpenSansR;
   text-decoration: none;
-  color: #fff;
+  color: #635a51;
+  &:hover {
+    background-color: #f9e561;
+    font-family: OpenSansB;
+    color: #000;
+  }
 }
 
 .menu__contact-container {
-  font-family: GothaB;
-  color: #fff;
+  font-family: OpenSansR;
+  color: #635a51;
+  text-align: center;
 }
 
 .menu__contact-container {
@@ -86,4 +93,11 @@
   top: 4%;
   left: 5.4%;
   width: pxToRem(44px);
+}
+
+@media (min-width: 768px) {
+  .cross, .hamburger {
+    right: 3%;
+    top: 1.9rem;
+  }
 }

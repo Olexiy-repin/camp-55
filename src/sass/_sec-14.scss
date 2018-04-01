@@ -1,0 +1,35 @@
+#sec-14 {
+  padding-top: 1.7rem;
+  padding-bottom: 4rem;
+  background-color: #f3f0e9;
+  .break {
+    display: block;
+  }
+}
+
+.sec-14__title {
+  font-family: PlayD;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 2.1rem;
+}
+
+.sec-14__slide-description {
+  font-family: OpenSansR;
+  font-size: pxToRem(16px);
+  color: #66655d;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: .6rem;
+}
+
+.sec-14__slide-speacker-name {
+  font-family: OpenSansB;
+  font-size: pxToRem(18px);
+  text-align: center;
+}
+
+.video-comment {
+  margin-bottom: 1.3rem;
+}
