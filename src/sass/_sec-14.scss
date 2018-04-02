@@ -33,3 +33,38 @@
 .video-comment {
   margin-bottom: 1.3rem;
 }
+
+@media (max-width: 767px) {
+  .sec-14__md-comment {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec-14 {
+    padding-top: 3.7rem;
+    .break {
+      display: inline;
+    }
+  }
+
+  .sec-14__title {
+    font-size: pxToRem(48px);
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+  }
+
+  .sec-14__picture {
+    display: flex;
+    justify-content: center;
+  }
+
+  .video-comment {
+    margin-bottom: 1.7rem;
+  }
+
+  .sec-14__slide-description {
+    padding: 0 8rem;
+  }
+}

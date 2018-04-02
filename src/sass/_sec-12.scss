@@ -20,3 +20,27 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: 768px) {
+  #sec-12 {
+    overflow: hidden;
+    padding-top: 6.4rem;
+    padding-bottom: 5.8rem;
+    .owl-carousel {
+      display: block;
+    }
+    .break {
+      display: inline;
+    }
+  }
+
+  .sec-12__title {
+    font-size: pxToRem(48px);
+    padding-left: 1.3rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .sec-12__slider {
+    width: 105%;
+  }
+}
