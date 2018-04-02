@@ -58,3 +58,45 @@
   color: #66655d;
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+  #sec-07 {
+    padding-top: 5.1rem;
+    padding-bottom: 4rem;
+    .break {
+      display: inline;
+    }
+  }
+  .sec-07__title {
+    font-size: pxToRem(48px);
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
+
+  .sec-07__item {
+    width: 23%;
+    margin-bottom: 3.2rem;
+    margin-right: 1.2rem;
+    &::before {
+      content: url("img/sec-07/line-md.png");
+    }
+    &:nth-of-type(4n+4) {
+      margin-right: 0;
+    }
+    &:last-of-type {
+      width: 23%;
+    }
+    &:nth-of-type(n+9) {
+      margin-bottom: 0;
+    }
+    &:last-of-type {
+      width: 40%;
+      margin-right: 0;
+    }
+  }
+
+  .sec-07__list {
+    padding-left: .6rem;
+    justify-content: flex-start;
+  }
+}

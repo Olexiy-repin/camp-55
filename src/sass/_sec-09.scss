@@ -52,3 +52,45 @@
   color: #66655d;
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+  #sec-09 {
+    padding-top: 8.9rem;
+  }
+  .sec-09__title {
+    text-align: center;
+    font-size: pxToRem(48px);
+  }
+
+  .sec-09__slide-count-container {
+    text-align: center;
+  }
+
+  .sec-09__slide-count {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .sec-09__slide-title {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .sec-09__slide-title-container {
+    text-align: center;
+    margin-bottom: 2.2rem;
+  }
+
+  .sec-09__slider {
+    padding: 0 4.4rem;
+  }
+
+  .sec-09__slide-content-item {
+    text-align: center;
+    padding: 0 5rem;
+  }
+
+  .sec-09__slide-content {
+    padding: 2.55rem 1.1rem 3.1rem 1.5rem;
+  }
+}

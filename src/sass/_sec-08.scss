@@ -106,3 +106,62 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+@media (max-width: 767px) {
+  .hede-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec-08 {
+    padding-top: 4.5rem;
+    padding-bottom: 10rem;
+    background-image: url("img/sec-08/bg-md.png");
+    .row [class*=col-]:first-of-type {
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .sec-08__title {
+    font-size: pxToRem(48px);
+    text-align: center;
+    margin-bottom: 1.9rem;
+  }
+
+  .sec-08__subtitle {
+    font-family: OpenSansR;
+    font-size: pxToRem(16px);
+    text-align: center;
+    padding: 0 8.4rem;
+    line-height: 1.4;
+    margin-bottom: .7rem;
+  }
+
+  .sec-08__text {
+    text-align: center;
+    padding: 0 11rem;
+  }
+
+  .sec-08__form-container {
+    margin: auto;
+    width: 37rem;
+  }
+
+  .sec-08__form-title {
+    font-size: pxToRem(24px);
+    line-height: 1.5;
+  }
+
+  .sec-08__form {
+    padding: 3.8rem 0 4.4rem 0;
+  }
+
+  .sec-08__input-container {
+    padding: 0 8.5rem;
+  }
+
+  .sec-08__form-subtitle {
+    margin-bottom: 2.9rem;
+  }
+}

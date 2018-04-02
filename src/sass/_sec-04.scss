@@ -32,3 +32,26 @@
 #sec-04 .svg-img {
   width: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  #sec-04 {
+    padding-top: 9rem;
+    padding-bottom: 9.7rem;
+    .break {
+      display: block;
+    }
+  }
+
+  .sec-04__title {
+    font-size: pxToRem(48px);
+    line-height: 1.4;
+    margin-bottom: 1.7rem;
+  }
+
+  .sec-04__subtitle {
+    font-size: pxToRem(24px);
+    padding: 0 6rem;
+    line-height: 1.4;
+    margin-bottom: 2.2rem;
+  }
+}

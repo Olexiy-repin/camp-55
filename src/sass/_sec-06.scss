@@ -2,7 +2,6 @@
   padding-top: 1.3rem;
   padding-bottom: 20.7rem;
   background-color: #f3f0e9;
-  background-image: url("img/sec-06/img-sm.png");
   background-position: bottom;
   background-size: auto;
   background-repeat: no-repeat;
@@ -66,4 +65,62 @@
   font-family: OpenSansR;
   font-size: pxToRem(16px);
   color: #66655d;
+}
+
+@media (max-width: 767px) {
+  ul.sec-06__list {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec-06 {
+    padding-top: 6.4rem;
+    padding-bottom: 23.1rem;
+    background-image: url("img/sec-06/img-md.png");
+    .row [class*=col-]:first-of-type {
+      padding-left: 5.3rem;
+    }
+  }
+
+  .sec-06__slider.owl-carousel {
+    display: none;
+  }
+
+  .sec-06__title {
+    font-size: pxToRem(48px);
+    margin-bottom: 3.4rem;
+  }
+
+  .sec-06__list {
+    columns: 2;
+    list-style: none;
+  }
+
+  .sec-06__list-item {
+    padding-right: 5rem;
+    margin-bottom: 3.4rem;
+    position: relative;
+    &:first-of-type {
+      padding-top: 2rem;
+      .sec-06__list-count {
+        top: -.7rem;
+      }
+    }
+    &:nth-of-type(5) {
+      padding-top: 2rem;
+      .sec-06__list-count {
+        top: -.7rem;
+      }
+    }
+    .sec-06__list-count {
+      display: block;
+      position: absolute;
+      top: -2.7rem;
+      left: 0;
+      font-family: PlayD;
+      font-size: pxToRem(48px);
+      color: #f9e561;
+    }
+  }
 }
