@@ -104,6 +104,60 @@
   .sec-03__text {
     padding: 0 8.1rem;
   }
+}
 
+@media (min-width: 1200px) {
+  #sec-03 {
+    padding-top: 8.5rem;
+    padding-bottom: 10.4rem;
+    z-index: 0;
+    .row:first-child {
+      margin-bottom: 4.9rem;
+    }
+    &::after {
+      text-transform: uppercase;
+      display: block;
+      content: "age";
+      position: absolute;
+      bottom: 3rem;
+      left: 20.6%;
+      font-family: PlayD;
+      font-size: pxToRem(370px);
+      color: #f7f5f0;
+      z-index: -1;
+    }
+  }
 
+  .sec-03__title {
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+
+  .sec-03__top-content {
+    padding-top: 4.3rem;
+  }
+
+  .sec-03__subtitle {
+    padding-left: 0;
+    padding-right: 4rem;
+  }
+
+  .sec-03__picture {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sec-03__under-img-text {
+    position: static;
+    margin-right: 0;
+  }
+
+  #sec-03 .row:last-child [class*=col-]:first-child {
+    margin-bottom: 0;
+  }
+
+  .sec-03__text {
+    padding: 0 5.4rem;
+  }
 }

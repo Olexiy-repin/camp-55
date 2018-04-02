@@ -100,3 +100,35 @@
     justify-content: flex-start;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-07 {
+    background-color: transparent;
+    padding-top: 4.8rem;
+    .break {
+      display: block;
+    }
+  }
+
+  .sec-07__title {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .sec-07__list {
+    padding-left: 0;
+  }
+
+  .sec-07__item {
+    width: 16.6%;
+    margin-right: 0;
+    margin-bottom: 4.1rem;
+    &:last-of-type {
+      width: 22.6%;
+    }
+  }
+
+  .sec-07__item:before {
+    content: url("img/sec-07/line-lg.png")
+  }
+}

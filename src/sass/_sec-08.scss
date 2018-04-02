@@ -165,3 +165,48 @@
     margin-bottom: 2.9rem;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-08 {
+    position: relative;
+    padding-top: 4.3rem;
+    padding-bottom: 11.2rem;
+    background-image:  url("img/sec-08/bg-lg.png");
+    &::before {
+      display: block;
+      content: url("img/sec-08/eq.png");
+      position: absolute;
+      bottom: -4rem;
+      left: 20.4%;
+    }
+  }
+
+  .sec-08__content {
+    padding-top: 3rem;
+  }
+
+  .sec-08__title {
+    text-align: left;
+    padding-right: 9rem;
+    line-height: 1.5;
+  }
+
+  .sec-08__subtitle {
+    text-align: left;
+    padding: 0;
+  }
+
+  .sec-08__text {
+    text-align: left;
+    padding: 0;
+    padding-right: 4rem;
+  }
+
+  .sec-08__form-container {
+    width: 32.3rem;
+  }
+
+  .sec-08__input-container {
+    padding: 0 6.2rem;
+  }
+}

@@ -169,3 +169,69 @@
     font-size: pxToRem(24px);
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-02 {
+    padding-top: 7.6rem;
+    .row:first-of-type {
+      padding-left: 0;
+    }
+    &::before {
+      top: -12rem;
+      right: 22%;
+      opacity: .5;
+    }
+  }
+
+  .sec-02__title {
+    line-height: 1.4;
+  }
+
+  .sec-02__text-under-list {
+    padding: 6.9rem 4rem 0 6rem;
+  }
+
+  .sec-02__list-title {
+    top: .5rem;
+    left: -71.2%;
+  }
+
+  .sec-02__list {
+    padding-left: 0;
+    padding-top: 2.1rem;
+  }
+
+  #sec-02 .row:last-of-type [class*=col-]:first-of-type {
+    margin-bottom: 0;
+  }
+
+  #sec-02 .row:last-of-type [class*=col-]:last-of-type {
+    padding-top: 4.5rem;
+  }
+
+  .sec-02__img-under-text {
+    text-align: left;
+    padding-left: 6.1rem;
+    padding-right: 12rem;
+    margin-bottom: 2.3rem;
+    &:last-of-type {
+      padding-left: 6rem;
+      padding-right: 8rem;
+    }
+  }
+
+  .sec-02__picture {
+    position: relative;
+    display: block;
+    &::before {
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+      left: 0;
+      display: block;
+      content: url("img/sec-02/cloud-img.png");
+    }
+  }
+
+
+}
