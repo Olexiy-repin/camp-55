@@ -89,6 +89,13 @@
   #sec-12 .owl-dot.active {
     background-color: #f9e561;
   }
+
+  #sec-09 .owl-nav {
+    position: absolute;
+    z-index: 1;
+    left: 7rem;
+    top: 314px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -103,5 +110,10 @@
   #sec-14 .owl-nav {
     margin-top: -4.8rem;
     margin-left: 123%;
+  }
+
+  #sec-09 .owl-nav {
+    left: 14.3rem;
+    top: 300px;
   }
 }
