@@ -36,6 +36,13 @@
   justify-content: center;
 }
 
+.sec-14__video-container {
+  width: 292px;
+  height: 164px;
+  margin: auto;
+  margin-bottom: 1.3rem;
+}
+
 @media (max-width: 767px) {
   .sec-14__md-comment {
     display: none;
@@ -56,6 +63,13 @@
     .break {
       display: inline;
     }
+  }
+
+  .sec-14__video-container {
+    width: 596px;
+    height: 334px;
+    margin: auto;
+    margin-bottom: 1.7rem;
   }
 
   .sec-14__title {
@@ -104,5 +118,11 @@
 
   .sec-14__slide-description {
     padding: 0 1rem;
+  }
+
+  .sec-14__video-container {
+    width: 596px;
+    height: 334px;
+    margin-bottom: 1.7rem;
   }
 }

@@ -54,6 +54,15 @@
   outline: 2px solid #fff;
   padding: .5rem .8rem;
   letter-spacing: 1px;
+  transition: all .3s linear;
+  &:hover {
+    background-color: #f9e561;
+    outline: 2px solid #f9e561;
+  }
+  &:active {
+    background-color: #000;
+    outline: 2px solid #000;
+  }
 }
 
 .footer__date-span {

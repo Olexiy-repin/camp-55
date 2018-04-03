@@ -40,7 +40,11 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 3.6rem;
-
+  transition: all .3s linear;
+  &:hover {
+    color: #000;
+    border-bottom: 1px dashed #000;
+  }
 }
 
 .sec-11__card-img {
@@ -63,6 +67,29 @@
   line-height: 1.5;
 }
 
+.more-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 17rem;
+  font-family: GothaR;
+  text-align: left;
+  background-color: #fff;
+  line-height: 1.5;
+  padding: 1.7rem 1.5rem;
+}
+
+.show {
+  transition: opacity .5s linear;
+  opacity: 1;
+  z-index: 1;
+}
+
+.sec-11__card-top-text {
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
   .sec-11__couch-block {
     display: none;
@@ -75,6 +102,28 @@
     .break {
       display: inline;
     }
+  }
+
+  .more-block {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    top: 8.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 21.2rem;
+    font-family: GothaR;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 21px #ccc;
+    line-height: 1.5;
+    padding: 1.7rem 2.5rem;
+  }
+
+  .show {
+    transition: opacity .5s linear;
+    opacity: 1;
+    z-index: 1;
   }
 
   .sec-11__slider.owl-carousel {

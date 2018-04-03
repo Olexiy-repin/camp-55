@@ -295,7 +295,7 @@
     padding: 1.1rem 0 0.9rem 0;
   }
 
-  .footer__container {
+  #footer .footer__container {
     max-width: pxToRem(1170px);
     margin: auto;
     display: flex;
@@ -303,12 +303,12 @@
     padding: 0 1.1rem 0 .9rem;
   }
 
-  .footer__data-container {
+  #footer .footer__data-container {
     display: flex;
     align-items: center;
   }
 
-  .footer__date {
+  #footer .footer__date {
     margin-bottom: 0;
     margin-right: 7rem;
   }

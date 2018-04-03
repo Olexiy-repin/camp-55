@@ -38,7 +38,7 @@
 
 // POPUP
 (() => {
-    $('.sec-12__list-item').on('click', (event) => {
+    $('.sec-11__couch-item').on('click', (event) => {
       $('.more-block').removeClass('show');
       if ($(event.target).hasClass('more-btn')) {
         event.stopPropagation();

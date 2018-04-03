@@ -45,17 +45,31 @@
   font-family: OpenSansB;
   font-size: pxToRem(18px);
   margin-bottom: .5rem;
-  &::before {
-    display: block;
-    content: "01";
-    position: absolute;
-    top: -2.7rem;
-    left: 0;
-    font-family: PlayD;
-    font-size: pxToRem(48px);
-    color: #f9e561;
-    z-index: -1;
-  }
+  // &::before {
+  //   display: block;
+  //   content: "01";
+  //   position: absolute;
+  //   top: -2.7rem;
+  //   left: 0;
+  //   font-family: PlayD;
+  //   font-size: pxToRem(48px);
+  //   color: #f9e561;
+  //   z-index: -1;
+  // }
+}
+
+#sec-06 .sec-06__list-item {
+  position: relative;
+}
+
+#sec-06 .slides .sec-06__list-count {
+  display: block;
+  position: absolute;
+  top: -2.7rem;
+  left: 0;
+  font-family: PlayD;
+  font-size: pxToRem(48px);
+  color: #f9e561;
 }
 
 #sec-06 .slides {

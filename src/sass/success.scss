@@ -1,20 +1,27 @@
 @font-face {
-  font-family: GothaB;
-  src: url('fonts/GothaProBol.woff') format("woff"),
-       url('fonts/GothaProBol.woff2') format("woff2");
+  font-family: OpenSansB;
+  src: url('fonts/OpenSans-Bold.woff') format("woff"),
+       url('fonts/OpenSans-Bold.woff2') format("woff2");
 }
 
 @font-face {
-  font-family: GothaR;
-  src: url('fonts/GothaProReg.woff') format("woff"),
-       url('fonts/GothaProReg.woff2') format("woff2");
+  font-family: OpenSansR;
+  src: url('fonts/OpenSans-Regular.woff') format("woff"),
+       url('fonts/OpenSans-Regular.woff2') format("woff2");
 }
 
 @font-face {
-  font-family: Pfd;
-  src: url('fonts/PFD.woff') format("woff"),
-       url('fonts/PFD.woff2') format("woff2");
+  font-family: Play;
+  src: url('fonts/PlayfairDisplaySC-Bold.woff') format("woff"),
+       url('fonts/PlayfairDisplaySC-Bold.woff2') format("woff2");
 }
+
+@font-face {
+  font-family: PlayD;
+  src: url('fonts/PlayfairDisplay-Bold.woff') format("woff"),
+       url('fonts/PlayfairDisplay-Bold.woff2') format("woff2");
+}
+
 
 
 $baseFontSize: 16px;
@@ -31,7 +38,21 @@ $baseFontSize: 16px;
 }
 
 body {
+  position: relative;
   min-height: 100vh;
+  background-color: #f3f0e9;
+  &::before {
+    position: absolute;
+    display: block;
+    content: "55+";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    // font-family: OpenSansB;
+    font-size: pxToRem(700px);
+    color: #f7f5f0;
+    z-index: -1;
+  }
 }
 
 .container {
@@ -69,7 +90,7 @@ body {
 
 .content-container__title {
   text-align: center;
-  font-family: Pfd;
+  font-family: PlayD;
   font-size: pxToRem(44px);
   text-transform: uppercase;
   color: #28292d;
@@ -78,9 +99,9 @@ body {
 
 .content-container__subtitle {
   text-align: center;
-  font-family: GothaR;
+  font-family: OpenSansR;
   font-size: pxToRem(16px);
-  color: #28292d;
+  color: #66655d;
   font-weight: 100;
   margin-bottom: 2.5rem;
 }
@@ -90,26 +111,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: GothaB;
+  font-family: OpenSansB;
   font-size: pxToRem(14px);
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: .1rem;
-  border-radius: 3px;
-  background-color: #fb83a7;
+  background-color: #635a51;;
   color: #fff;
-  box-shadow: 0 0 28px 0 #fb83a7;
-  padding: 1rem 0;
   margin: 0 auto;
   cursor: pointer;
-  border-radius: pxToRem(21px);
+  outline: 2px solid #fff;
+  padding: .5rem .8rem;
+  letter-spacing: 1px;
   &:hover {
     transition: all .3s linear;
-    background-color: #41a7e7;
+    background-color: #f9e561;
   }
   &:active {
     transition: all .3s linear;
-    background-color: #258ed0;
+    background-color: #000;
   }
 }
 
@@ -127,7 +146,6 @@ body {
 
   .content-container-btn-link {
     width: 44%;
-    border-radius: pxToRem(30px);
     padding: 1.5rem 0;
   }
 }
@@ -142,6 +160,7 @@ body {
   }
   .content-container-btn-link {
     width: 28%;
+    padding: 1.2rem 0;
   }
 }
 
@@ -159,7 +178,7 @@ body {
   white-space: nowrap;
   display: block;
   text-align: center;
-  font-family: GothaR;
+  font-family: OpenSansR;
   font-size: 14px;
   text-decoration: none;
   color: #656668;
@@ -280,7 +299,7 @@ body {
 }
 
 .bottom-modal-content .tc {
-  font-family: GothaB;
+  font-family: OpenSansB;
   font-size: pxToRem(24px);
   text-transform: uppercase;
   color: rgb(40, 41, 45);
@@ -289,7 +308,7 @@ body {
 }
 
 .md_content {
-  font-family: GothaR;
+  font-family: OpenSansR;
   padding: 0 40px;
   overflow: auto;
   height: 80%;

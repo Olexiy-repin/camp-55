@@ -9,8 +9,11 @@
 
    margin : 5,
    nav: true,
-   navText: ["<img src='../img/sec-06/larr.png'>","<img src='../img/sec-06/rarr.png'>"],
+   navText: ["<img src='img/sec-06/larr.png'>","<img src='img/sec-06/rarr.png'>"],
    dots: false,
+   animateOut: 'slideOutDown',
+   animateIn: 'flipInX',
+   mouseDrag: false
   });
 })();
 
@@ -25,7 +28,7 @@
 
    margin : 5,
    nav: true,
-   navText: ["<img src='../img/sec-06/larr.png'>","<img src='../img/sec-06/rarr.png'>"],
+   navText: ["<img src='img/sec-06/larr.png'>","<img src='img/sec-06/rarr.png'>"],
    dots: false,
 
    responsiveClass:true,
@@ -61,7 +64,7 @@
 
    margin : 5,
    nav: true,
-   navText: ["<img src='../img/sec-06/larr.png'>","<img src='../img/sec-06/rarr.png'>"],
+   navText: ["<img src='img/sec-06/larr.png'>","<img src='img/sec-06/rarr.png'>"],
    dots: false,
 
    responsiveClass:true,
