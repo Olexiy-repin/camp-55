@@ -90,3 +90,18 @@
     background-color: #f9e561;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-12 .owl-nav {
+    margin-left: 0;
+  }
+
+  #sec-12 .owl-dots {
+    padding-right: 24.8%;
+  }
+
+  #sec-14 .owl-nav {
+    margin-top: -4.8rem;
+    margin-left: 123%;
+  }
+}

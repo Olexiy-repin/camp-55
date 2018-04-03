@@ -32,11 +32,21 @@
 
 .video-comment {
   margin-bottom: 1.3rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 767px) {
   .sec-14__md-comment {
     display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  #sec-14 {
+    .row [class*=col-]:last-of-type {
+      display: none;
+    }
   }
 }
 
@@ -66,5 +76,33 @@
 
   .sec-14__slide-description {
     padding: 0 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-14 {
+    padding-top: 2.6rem;
+    padding-bottom: 8rem;
+    .row [class*=col-]:first-of-type .sec-14__title {
+      display: none;
+    }
+
+    .row [class*=col-]:first-of-type {
+      position: relative;
+      margin-right: 5%;
+    }
+
+    .break {
+      display: block;
+    }
+  }
+
+  .sec-14__title {
+    font-size: pxToRem(48px);
+    text-align: left;
+  }
+
+  .sec-14__slide-description {
+    padding: 0 1rem;
   }
 }

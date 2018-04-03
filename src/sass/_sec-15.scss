@@ -12,7 +12,7 @@
   background-image: url("img/sec-15/bg-sm.png");
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
 }
 
 .sec-15__title {
@@ -56,6 +56,8 @@
 
 .sec-15__img-container {
   margin-bottom: 1.8rem;
+  display: flex;
+  justify-content: center;
 }
 
 .sec-15__under-img-text {
@@ -196,9 +198,16 @@
 
   // footer
   #footer {
+    display: block;
+    padding: 1.1rem 0 .7rem 0;
+  }
+
+  .footer__container {
+    max-width: pxToRem(1170px);
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 1.1rem 1.6rem .7rem 1.5rem;
+    padding: 0 1.6rem 0 1.5rem;
   }
 
   #footer .logo-container {
@@ -216,5 +225,91 @@
   .footer__btn-container {
     margin-bottom: 0;
     align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-15 {
+    padding-top: 4.1rem;
+    background-image: url("img/sec-15/bg-lg.png");
+    .row:last-of-type [class*=col-]:first-of-type {
+      order: 2;
+      padding-left: 0;
+    }
+    .row:last-of-type [class*=col-]:last-of-type {
+      padding-right: 0;
+    }
+  }
+
+  #sec-15 .row:first-of-type {
+    margin-bottom: 6.8rem;
+  }
+
+  .sec-15__title {
+    padding: 0;
+    padding-top: 1.3rem;
+    text-align: left;
+  }
+
+  .sec-15__subtitle {
+    text-align: left;
+    padding: 0;
+    padding-right: 7rem;
+    margin-bottom: 5.8rem;
+  }
+
+  .sec-15__text {
+    position: static;
+    text-align: left;
+    transform: translateX(0);
+  }
+
+  .sec-15__img-container {
+    padding-left: 5.7rem;
+    margin-bottom: 3.3rem;
+  }
+
+  .sec-15__img-description {
+    padding-left: 4.2rem;
+  }
+
+  .sec-15__under-img-text {
+    padding-left: 2.4rem;
+  }
+
+  .sec-15__important-block {
+    width: 35.7rem;
+  }
+
+  .sec-08__form-container {
+    width: 35.7rem;
+  }
+
+  .input-container {
+    padding: 0 7rem;
+  }
+
+  // footer
+  #footer {
+    display: block;
+    padding: 1.1rem 0 0.9rem 0;
+  }
+
+  .footer__container {
+    max-width: pxToRem(1170px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.1rem 0 .9rem;
+  }
+
+  .footer__data-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__date {
+    margin-bottom: 0;
+    margin-right: 7rem;
   }
 }

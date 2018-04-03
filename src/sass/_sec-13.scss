@@ -30,6 +30,12 @@
   justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .sec-13__md-text {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   #sec-13 {
     padding-top: 3.5rem;
@@ -65,5 +71,46 @@
 
   .sec-13__img-container {
     margin-bottom: 2.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-13 {
+    position: relative;
+    padding-top: 5.4rem;
+    z-index: 0;
+    .break {
+      display: block;
+    }
+    &::before {
+      display: block;
+      content: url("img/sec-13/bg-text.png");
+      position: absolute;
+      top: 1.8rem;
+      left: 30.5%;
+      z-index: -1;
+    }
+  }
+
+  .sec-13__title {
+    font-size: pxToRem(48px);
+    text-align: left;
+    padding: 0;
+    margin-bottom: 5.4rem;
+  }
+
+  .sec-13__text {
+    padding: 0;
+    text-align: left;
+    padding-right: 6.3rem;
+  }
+
+  .sec-13__md-text {
+    padding: 0 5.5rem;
+  }
+
+  .sec-13__img-container {
+    padding-top: 1rem;
+    margin-bottom: 3.9rem;
   }
 }

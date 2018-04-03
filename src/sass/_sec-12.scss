@@ -18,7 +18,7 @@
 
 .sec-12__img-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
@@ -42,5 +42,23 @@
 
   .sec-12__slider {
     width: 105%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-12 {
+    overflow: hidden;
+  }
+
+  .sec-12__slider {
+    width: 134.2%;
+  }
+
+  .sec-11__slider-img {
+    width: 360px;
+  }
+
+  .sec-12__title {
+    padding-left: .7rem;
   }
 }

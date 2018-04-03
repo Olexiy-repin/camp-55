@@ -143,6 +143,16 @@
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .menu .footer__date {
+    display: none;
+  }
+
+   .menu .footer__geolocation {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   #sec-01 {
     padding-top: 1.5rem;
@@ -156,10 +166,22 @@
     .row:first-of-type {
       margin-bottom: 3.9rem;
     }
+
+    .menu .footer__geolocation {
+     margin-bottom: 30%;
+   }
+
+   .menu__list {
+     margin-bottom: 11rem;
+   }
   }
 
   #sec-01 .container--width {
     padding-top: 3rem;
+  }
+
+  #sec-01 .menu {
+    height: 57rem;
   }
 
 
